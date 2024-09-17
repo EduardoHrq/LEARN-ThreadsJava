@@ -18,7 +18,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(2000); // para espera a execucao acima terminar
+                    Thread.sleep(1000); // para espera a execucao acima terminar
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
